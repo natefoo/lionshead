@@ -11,7 +11,11 @@ solution to the Linux wheel problem before the creation of `manylinux
 spun in to a separate library (which would've been necessary anyway to be
 consumed by both pip and wheel).
 
+The development repository can be found at `<https://github.com/natefoo/lionshead>`_
+
 Documentation is available at `<http://lionshead.readthedocs.io>`_
+
+The package is published to PyPI at `<https://pypi.python.org/pypi/lionshead>`_
 
 Quick start
 -----------
