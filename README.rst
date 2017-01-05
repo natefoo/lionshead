@@ -38,21 +38,21 @@ SpecificPlatform(dist='centos', major_vers='7', full_vers='7', stability='stable
 
 Installation of the module also installs ``lionshead-platform`` and
 ``lionshead-stability`` commands that return the output of
-:func:`get_specific_platform_string` and :func:`get_platform_stability_string`,
+``get_specific_platform_string`` and ``get_platform_stability_string``,
 respectively.
 
 FAQ
 ---
 
 How can I help?
-```````````````
+~~~~~~~~~~~~~~~
 
 See if your OS/distribution is listed and/or correct in `this gist
 <https://gist.github.com/natefoo/814c5bf936922dad97ff>`_, and if not, follow
 the instructions and create an issue with your findings.
 
 Does this work on anything other than Linux?
-````````````````````````````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Not currently, but as an avid illumos fan, I plan to add support for other
 operating systems such as illumos and the BSDs. `Here's the data collection
@@ -60,7 +60,7 @@ operating systems such as illumos and the BSDs. `Here's the data collection
 illumos detection to get started.
 
 What is a "stable" vs. "unstable" platform?
-```````````````````````````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 "Stable" platforms are operating system releases which commit to a defined,
 non-changing ABI for the lifetime of the release. This means that the ABI
@@ -83,7 +83,7 @@ of "unstable" releases include:
 * Arch
 
 What's with the name?
-`````````````````````
+~~~~~~~~~~~~~~~~~~~~~
 The name is a reference to *Indiana Jones and the Last Crusade*, specifically
 the scene where Indy takes the "leap of faith" on to the invisible bridge in
 the Temple of the Sun.
